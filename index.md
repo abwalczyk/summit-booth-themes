@@ -17,30 +17,17 @@ title: Summit Booth Themes
   <p class="owner">Owner: Anshul</p>
   <div class="split">
     <div class="card">
-      <h3>Existing demos</h3>
-      <ul>
-        <li>Automation for AIOps</li>
-        <li>Self Healing Infrastructure with Ansible</li>
-      </ul>
+      <h3>Automation for AIOps</h3>
+      <p class="small">Status: done</p>
     </div>
     <div class="card">
-      <h3>New opportunities / What's New in AAP 2.7</h3>
-      <ul>
-        <li>Automation AI Infrastructure</li>
-        <li>Automation Multi-Repo Deployments with EDA</li>
-        <li>AAP MCP Server with telemetry</li>
-        <li>Observability to Remediation (Tier-1)</li>
-        <li>Splunk, ServiceNow, IBM Instana integrations</li>
-        <li>Bring-your-own-knowledge ALIA RAG pipeline</li>
-      </ul>
+      <h3>Tier-1 AIOps Arcades</h3>
+      <p>Instana, SNOW, Splunk</p>
+      <p class="small">Status: in progress</p>
     </div>
     <div class="card">
-      <h3>Proposed demos (arcades/videos)</h3>
-      <ol>
-        <li>Automation for AIOps (done)</li>
-        <li>All Tier-1 AIOps arcades: Instana, SNOW, Splunk (in progress)</li>
-        <li>Reserved for another showcase</li>
-      </ol>
+      <h3>Reserved Showcase</h3>
+      <p class="small">Status: reserved for another showcase</p>
     </div>
   </div>
 </section>
@@ -50,26 +37,8 @@ title: Summit Booth Themes
   <p class="owner">Owner: Roger</p>
   <div class="split">
     <div class="card">
-      <h3>Existing demos</h3>
-      <ul>
-        <li>None (net new)</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3>New opportunities / What's New in AAP 2.7</h3>
-      <ul>
-        <li>Agentic-capable workflows</li>
-        <li>Human-in-the-loop approvals</li>
-        <li>Drag-and-drop canvas</li>
-        <li>Use AAP workflows and job templates natively in canvas</li>
-        <li>AI agents embedded in workflows</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3>Proposed demos (arcades/videos)</h3>
-      <ol>
-        <li>Single overview video (not started)</li>
-      </ol>
+      <h3>Workflow and Orchestration Overview Video</h3>
+      <p class="small">Status: not started</p>
     </div>
   </div>
 </section>
@@ -79,33 +48,16 @@ title: Summit Booth Themes
   <p class="owner">Owner: Leo</p>
   <div class="split">
     <div class="card">
-      <h3>Existing demos</h3>
-      <ul>
-        <li>Installing Dev Container in VSCode</li>
-        <li>Integrate Ansible with OpenShift in Developer Sandbox</li>
-        <li>Provision AAP in Developer Sandbox</li>
-        <li>Integrating AAP with Red Hat Developer Hub</li>
-      </ul>
+      <h3>Anshul Demo: Claude / RHEL AI on Vertex in VS Code Extension</h3>
+      <p class="small">Status: not started</p>
     </div>
     <div class="card">
-      <h3>New opportunities / What's New in AAP 2.7</h3>
-      <ul>
-        <li>AI client support for AAP MCP Server (Claude, Cursor, Copilot, Bob, LibraChat)</li>
-        <li>MCP Server for VS Code</li>
-        <li>EE Builder with content discovery</li>
-        <li>AAP MCP plugins with EEs</li>
-        <li>AI infrastructure provider in VS Code Ansible extension</li>
-        <li>Refreshed Molecule for enhanced collection testing</li>
-        <li>Automation Code Assistant with pluggable LLMs</li>
-      </ul>
+      <h3>Configure Cursor, Claude, Bob, and Copilot for AAP MCP Server</h3>
+      <p class="small">Status: 2/4 completed</p>
     </div>
     <div class="card">
-      <h3>Proposed demos (arcades/videos)</h3>
-      <ol>
-        <li>Anshul demo with Claude on Vertex and/or RHEL AI on Vertex inside VS Code extension (not started)</li>
-        <li>Configure Cursor, Claude, Bob, and Copilot for AAP MCP Server (2/4 completed)</li>
-        <li>MCP Server for Ansible DevTools (not started)</li>
-      </ol>
+      <h3>MCP Server for Ansible DevTools</h3>
+      <p class="small">Status: not started</p>
     </div>
   </div>
 </section>
@@ -115,31 +67,24 @@ title: Summit Booth Themes
   <p class="owner">Owner: Nuno</p>
   <div class="split">
     <div class="card">
-      <h3>Existing demos</h3>
-      <ul>
-        <li>Manage Ansible Secrets with Hashicorp Vault</li>
-        <li>AAP and Red Hat Insights</li>
-        <li>Policy Enforcement with AAP</li>
-      </ul>
+      <h3>Security Automation Overview</h3>
+      <p class="small">Status: in progress</p>
     </div>
     <div class="card">
-      <h3>New opportunities / What's New in AAP 2.7</h3>
-      <ul>
-        <li>Zero Trust</li>
-        <li>API authorization via external OAuth token (for example, AzureAD)</li>
-        <li>Compliance and governance improvements</li>
-        <li>Post-quantum cryptography in AAP</li>
-      </ul>
+      <h3>Manage Ansible Secrets with Hashicorp Vault</h3>
+      <p class="small">Status: done?</p>
     </div>
     <div class="card">
-      <h3>Proposed demos (arcades/videos)</h3>
-      <ol>
-        <li>Security Automation Overview (in progress)</li>
-        <li>Manage Ansible Secrets with Hashicorp Vault (done?)</li>
-        <li>Policy Enforcement with AAP (done)</li>
-        <li>ZT topic (not started)</li>
-        <li>Claude skill concept (not started)</li>
-      </ol>
+      <h3>Policy Enforcement with AAP</h3>
+      <p class="small">Status: done</p>
+    </div>
+    <div class="card">
+      <h3>Zero Trust Topic</h3>
+      <p class="small">Status: not started</p>
+    </div>
+    <div class="card">
+      <h3>Claude Skill Concept</h3>
+      <p class="small">Status: not started</p>
     </div>
   </div>
 </section>
@@ -149,35 +94,20 @@ title: Summit Booth Themes
   <p class="owner">Owner: Aubrey</p>
   <div class="split">
     <div class="card">
-      <h3>Existing demos</h3>
-      <ul>
-        <li>Network automation: NetBox custom credential type, Cisco Meraki, AAP network automation</li>
-        <li>Virtualization: VM migration to OpenShift, managing OpenShift VMs with AAP</li>
-        <li>RHEL: patching VMs, deploy/remove apps</li>
-        <li>Windows: AD automation, Day 2 VM operations, Windows updates</li>
-      </ul>
+      <h3>Overview Arcade for Virtual Infrastructure Management</h3>
+      <p class="small">Status: done</p>
     </div>
     <div class="card">
-      <h3>New opportunities / What's New in AAP 2.7</h3>
-      <ul>
-        <li>Collection enhancements demos</li>
-        <li>MECM integration</li>
-        <li>Compliance and SCOM angles</li>
-        <li>DR / EDB co-sell quick deck support</li>
-      </ul>
-      <p class="small">
-        MECM reference:
-        <a href="https://interact.redhat.com/share/idjdi8FjHr3O9jkQkhnf" target="_blank" rel="noopener">interactive link</a>
-      </p>
+      <h3>Overview Arcade for RHEL</h3>
+      <p class="small">Status: done</p>
     </div>
     <div class="card">
-      <h3>Proposed demos (arcades/videos)</h3>
-      <ol>
-        <li>Overview arcade for Virtual Infrastructure Management (done)</li>
-        <li>Overview arcade for RHEL (done)</li>
-        <li>Automating Day 2 Windows VM Operations (done)</li>
-        <li>Network automation with AAP (done)</li>
-      </ol>
+      <h3>Automating Day 2 Windows VM Operations</h3>
+      <p class="small">Status: done</p>
+    </div>
+    <div class="card">
+      <h3>Network Automation with AAP</h3>
+      <p class="small">Status: done</p>
     </div>
   </div>
 </section>
@@ -187,31 +117,16 @@ title: Summit Booth Themes
   <p class="owner">Owner: Hicham</p>
   <div class="split">
     <div class="card">
-      <h3>Existing demos</h3>
-      <ul>
-        <li>Automated Multi-Cloud Insights with AAP</li>
-        <li>Ansible Automation on AWS</li>
-        <li>Ansible on Azure</li>
-        <li>Subscription activation, managed application, mesh configuration</li>
-        <li>Ansible &amp; Terraform - Better Together</li>
-      </ul>
+      <h3>Google Cloud</h3>
+      <p><a href="https://interact.redhat.com/share/QIkx7TMuu22RDi0nUjRA" target="_blank" rel="noopener">Open arcade</a></p>
     </div>
     <div class="card">
-      <h3>New opportunities / What's New in AAP 2.7</h3>
-      <ul>
-        <li>Updated Ansible/Terraform content</li>
-        <li>Updated AIOps arcades for AWS, Azure, Google Cloud</li>
-        <li>AWS collection and amazon.ai updates (Bedrock AI)</li>
-        <li>Google Cloud collection and Vertex AI updates</li>
-      </ul>
+      <h3>AWS</h3>
+      <p><a href="https://interact.redhat.com/share/qYeocEdiSCHFkKXytJMe" target="_blank" rel="noopener">Open arcade</a></p>
     </div>
     <div class="card">
-      <h3>Proposed demos (arcades/videos)</h3>
-      <ol>
-        <li><a href="https://interact.redhat.com/share/QIkx7TMuu22RDi0nUjRA" target="_blank" rel="noopener">Google Cloud</a></li>
-        <li><a href="https://interact.redhat.com/share/qYeocEdiSCHFkKXytJMe" target="_blank" rel="noopener">AWS</a></li>
-        <li><a href="https://interact.redhat.com/share/kfgU5BTwSlvBf9pCy0vP" target="_blank" rel="noopener">Azure</a></li>
-      </ol>
+      <h3>Azure</h3>
+      <p><a href="https://interact.redhat.com/share/kfgU5BTwSlvBf9pCy0vP" target="_blank" rel="noopener">Open arcade</a></p>
     </div>
   </div>
 </section>
@@ -221,28 +136,16 @@ title: Summit Booth Themes
   <p class="owner">Owner: Alex</p>
   <div class="split">
     <div class="card">
-      <h3>Existing demos</h3>
-      <ul>
-        <li>Automation dashboard</li>
-        <li>Automation dashboard installation</li>
-      </ul>
+      <h3>Automation Dashboard</h3>
+      <p class="small">Status: done</p>
     </div>
     <div class="card">
-      <h3>New opportunities / What's New in AAP 2.7</h3>
-      <ul>
-        <li>Automation dashboard as a native AAP experience (Tech Preview)</li>
-        <li>New inventory plugins: Azure, VMware, Cisco ACI, Cisco Meraki</li>
-        <li>Indirect node counting enhancements across vmware, google cloud, azure, aws, Meraki switches, Cisco Intersight</li>
-        <li>Savings planner with metrics utility/metrics service</li>
-      </ul>
+      <h3>Automation Dashboard Installation</h3>
+      <p class="small">Status: done</p>
     </div>
     <div class="card">
-      <h3>Proposed demos (arcades/videos)</h3>
-      <ol>
-        <li>Automation dashboard (done)</li>
-        <li>Automation dashboard installation (done)</li>
-        <li>Using metrics-utility (net new)</li>
-      </ol>
+      <h3>Using metrics-utility</h3>
+      <p class="small">Status: net new</p>
     </div>
   </div>
 </section>
@@ -252,31 +155,17 @@ title: Summit Booth Themes
   <p class="owner">Owner: Sean</p>
   <div class="split">
     <div class="card">
-      <h3>Existing demos</h3>
-      <ul>
-        <li>Self service automation portal (outdated, needs updating)</li>
-        <li>Advance your Automation Maturity</li>
-        <li>Automation intelligent assistant</li>
-      </ul>
+      <h3>Automation Intelligent Assistant</h3>
+      <p>Potential BYOK adaptation/split-out</p>
+      <p class="small">Status: done, enhancement not started</p>
     </div>
     <div class="card">
-      <h3>New opportunities / What's New in AAP 2.7</h3>
-      <ul>
-        <li>Intro to automation controller</li>
-        <li>What's new with Automation Hub</li>
-        <li>How to execute a playbook at scale for first time</li>
-        <li>Intro to credentials and credential management</li>
-        <li>Intro to RBAC</li>
-        <li>Intro to inventory</li>
-      </ul>
+      <h3>Advance Your Automation Maturity</h3>
+      <p class="small">Status: done</p>
     </div>
     <div class="card">
-      <h3>Proposed demos (arcades/videos)</h3>
-      <ol>
-        <li>Automation intelligent assistant (done) with potential BYOK adaptation (not started)</li>
-        <li>Advance your automation maturity (done)</li>
-        <li>Reserved for another showcase</li>
-      </ol>
+      <h3>Reserved Showcase</h3>
+      <p class="small">Status: reserved for another showcase</p>
     </div>
   </div>
 </section>
