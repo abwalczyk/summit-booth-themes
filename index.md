@@ -12,17 +12,6 @@ title: Summit Booth Themes
   </ul>
 </div>
 
-<div class="tabs">
-  <button class="tab-button" data-tab="theme-a">A: AIOps</button>
-  <button class="tab-button" data-tab="theme-b">B: Workflows &amp; Orchestration</button>
-  <button class="tab-button" data-tab="theme-c">C: Developer Experience</button>
-  <button class="tab-button" data-tab="theme-d">D: Policy, Governance, Compliance</button>
-  <button class="tab-button" data-tab="theme-e">E: Infrastructure &amp; Network</button>
-  <button class="tab-button" data-tab="theme-f">F: AAP on Cloud</button>
-  <button class="tab-button" data-tab="theme-g">G: Metrics &amp; Telemetry</button>
-  <button class="tab-button" data-tab="theme-h">H: AAP 101</button>
-</div>
-
 <section class="tab-panel" id="theme-a">
   <h2>Theme A - AIOps</h2>
   <p class="owner">Owner: Anshul</p>
