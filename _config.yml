@@ -1,6 +1,9 @@
 title: Summit Booth Themes
 description: Summit demo booth themes and proposed arcade content.
 theme: jekyll-theme-dinky
+# GitHub project page: https://<user>.github.io/summit-booth-themes/
+baseurl: "/summit-booth-themes"
+url: ""
 kramdown:
   syntax_highlighter_opts:
     disable: true
