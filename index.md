@@ -14,7 +14,6 @@ title: Summit Booth Themes
 
 <section class="tab-panel" id="theme-a">
   <h2>Theme A - AIOps</h2>
-  <p class="owner">Owner: Anshul</p>
   <div class="split">
     <div class="card">
       <h3>Automation for AIOps</h3>
@@ -34,7 +33,6 @@ title: Summit Booth Themes
 
 <section class="tab-panel" id="theme-b">
   <h2>Theme B - Automation Workflows and Orchestration</h2>
-  <p class="owner">Owner: Roger</p>
   <div class="split">
     <div class="card">
       <h3>Workflow and Orchestration Overview Video</h3>
@@ -45,7 +43,6 @@ title: Summit Booth Themes
 
 <section class="tab-panel" id="theme-c">
   <h2>Theme C - Developer Experience</h2>
-  <p class="owner">Owner: Leo</p>
   <div class="split">
     <div class="card">
       <h3>Anshul Demo: Claude / RHEL AI on Vertex in VS Code Extension</h3>
@@ -64,7 +61,6 @@ title: Summit Booth Themes
 
 <section class="tab-panel" id="theme-d">
   <h2>Theme D - Policy, Governance, and Compliance</h2>
-  <p class="owner">Owner: Nuno</p>
   <div class="split">
     <div class="card">
       <h3>Security Automation Overview</h3>
@@ -91,7 +87,6 @@ title: Summit Booth Themes
 
 <section class="tab-panel" id="theme-e">
   <h2>Theme E - Infrastructure and Network Automation</h2>
-  <p class="owner">Owner: Aubrey</p>
   <div class="split">
     <div class="card">
       <h3>Overview Arcade for Virtual Infrastructure Management</h3>
@@ -114,35 +109,43 @@ title: Summit Booth Themes
 
 <section class="tab-panel theme-cloud" id="theme-f">
   <h2 class="cloud-page-title">Cloud Automation</h2>
-  <p class="owner">Owner: Hicham</p>
   <div class="demo-card-grid">
     <a class="demo-card" href="https://interact.redhat.com/share/QIkx7TMuu22RDi0nUjRA" target="_blank" rel="noopener">
       <div class="demo-card-media">
-        <img src="{{ '/assets/images/cloud/automate-multicloud.svg' | relative_url }}" width="400" height="225" alt="Automate Multi-Cloud Insights with AAP thumbnail" loading="lazy" />
+        <img src="{{ '/assets/images/cloud/automate-multicloud.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/cloud/automate-multicloud.svg' | relative_url }}'" width="400" height="225" alt="Automate Multi-Cloud Insights with AAP thumbnail" loading="lazy" />
       </div>
       <h3 class="demo-card-title">Automate Multi-Cloud Insights with AAP</h3>
       <p class="demo-card-desc">Gain visibility into your multi-cloud infrastructure with Ansible Automation Platform. This lab walks through launching AWS, Azure, and Google Cloud report jobs, generating dynamic documentation, and reviewing detailed VM insights, all from a single interface.</p>
     </a>
     <a class="demo-card" href="https://interact.redhat.com/share/qYeocEdiSCHFkKXytJMe" target="_blank" rel="noopener">
       <div class="demo-card-media">
-        <img src="{{ '/assets/images/cloud/ansible-aws.svg' | relative_url }}" width="400" height="225" alt="Ansible Automation on AWS thumbnail" loading="lazy" />
+        <img src="{{ '/assets/images/cloud/ansible-aws.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/cloud/ansible-aws.svg' | relative_url }}'" width="400" height="225" alt="Ansible Automation on AWS thumbnail" loading="lazy" />
       </div>
       <h3 class="demo-card-title">Ansible Automation on AWS</h3>
       <p class="demo-card-desc">Automate in minutes by quickly deploying the AAP Service on AWS and running your first automation use case with ease.</p>
     </a>
     <a class="demo-card" href="https://interact.redhat.com/share/kfgU5BTwSlvBf9pCy0vP" target="_blank" rel="noopener">
       <div class="demo-card-media">
-        <img src="{{ '/assets/images/cloud/aap-azure-managed.svg' | relative_url }}" width="400" height="225" alt="Ansible on Azure managed app thumbnail" loading="lazy" />
+        <img src="{{ '/assets/images/cloud/aap-azure-managed.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/cloud/aap-azure-managed.svg' | relative_url }}'" width="400" height="225" alt="Ansible on Azure managed app thumbnail" loading="lazy" />
       </div>
       <h3 class="demo-card-title">Ansible on Azure (managed app): Subscription Activation</h3>
       <p class="demo-card-desc">Set up Ansible Automation Platform on Azure by launching the managed application, monitoring deployment via the Deployment Engine, and activating your subscription through the Red Hat Hybrid Cloud Console.</p>
     </a>
   </div>
+  <div class="relevant-links">
+    <h3>Relevant links</h3>
+    <ul>
+      <li><a href="#" target="_blank" rel="noopener">Placeholder link 1</a></li>
+      <li><a href="#" target="_blank" rel="noopener">Placeholder link 2</a></li>
+      <li><a href="#" target="_blank" rel="noopener">Placeholder link 3</a></li>
+      <li><a href="#" target="_blank" rel="noopener">Placeholder link 4</a></li>
+      <li><a href="#" target="_blank" rel="noopener">Placeholder link 5</a></li>
+    </ul>
+  </div>
 </section>
 
 <section class="tab-panel" id="theme-g">
   <h2>Theme G - Metrics and Telemetry</h2>
-  <p class="owner">Owner: Alex</p>
   <div class="split">
     <div class="card">
       <h3>Automation Dashboard</h3>
@@ -161,7 +164,6 @@ title: Summit Booth Themes
 
 <section class="tab-panel" id="theme-h">
   <h2>Theme H - AAP 101 (Operator/Ops Team)</h2>
-  <p class="owner">Owner: Sean</p>
   <div class="split">
     <div class="card">
       <h3>Automation Intelligent Assistant</h3>
