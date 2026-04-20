@@ -204,9 +204,19 @@
       .demo-card-media-placeholder.splunk-accent {
         background: linear-gradient(145deg, #66ffcc 0%, #1a8870 100%);
       }
+      /* Generic tile when no thumbnail image (booth demos) */
+      .demo-card-media-placeholder.booth-placeholder {
+        background: linear-gradient(145deg, #5c6a7a 0%, #2a3444 100%);
+      }
+      .demo-card-media-placeholder.booth-placeholder-alt {
+        background: linear-gradient(145deg, #6a5c7a 0%, #3a2a44 100%);
+      }
+      .demo-card-media-placeholder.booth-placeholder-alt2 {
+        background: linear-gradient(145deg, #5a7a6a 0%, #2a4438 100%);
+      }
       .demo-card-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
         gap: 20px;
         align-items: stretch;
       }
@@ -214,17 +224,6 @@
         .demo-card-grid {
           grid-template-columns: 1fr;
         }
-      }
-      /* Single featured demo (e.g. Automation ROI dashboard tile) */
-      .demo-card-hero-wrap {
-        max-width: 720px;
-        margin: 0 auto 24px;
-      }
-      .demo-card-hero-wrap a.demo-card {
-        height: 100%;
-      }
-      .demo-card-grid + .split.roi-more-cards {
-        margin-top: 8px;
       }
       a.demo-card {
         display: flex;
@@ -343,8 +342,8 @@
     <main class="wrapper">
       <section class="theme-page theme-cloud">
   <h2 class="cloud-page-title">Automation ROI</h2>
-
-  <div class="demo-card-hero-wrap">
+  <p class="theme-cloud-lead">Same theme in the arcade game: <a href="https://abwalczyk.github.io/ansible-f1/Metrics-and-telemetry/" target="_blank" rel="noopener">Built to Automate — Automation ROI track</a>.</p>
+  <div class="demo-card-grid">
     <a class="demo-card" href="https://interact.redhat.com/share/rRlctHhxxxojPuls1oui" target="_blank" rel="noopener">
       <div class="demo-card-media">
         <img src="/summit-booth-themes/assets/images/dashboard_installation.jpg" width="800" height="450" alt="Ansible Automation Dashboard Installation" loading="lazy" />
@@ -352,17 +351,16 @@
       <h3 class="demo-card-title">Ansible Automation Dashboard Installation</h3>
       <p class="demo-card-desc">How to get started with Ansible Automation Dashboard Installation. What you need to do from prerequisite steps, to Install and begin using the Dashboard to monitor and track automation!</p>
     </a>
-  </div>
-
-  <div class="split roi-more-cards">
-    <div class="card">
-      <h3>Automation Dashboard</h3>
-      <p class="small">Status: done</p>
-    </div>
-    <div class="card">
-      <h3>Using metrics-utility</h3>
-      <p class="small">Status: net new</p>
-    </div>
+    <a class="demo-card" href="https://abwalczyk.github.io/ansible-f1/Metrics-and-telemetry/" target="_blank" rel="noopener">
+      <div class="demo-card-media demo-card-media-placeholder booth-placeholder" aria-hidden="true"></div>
+      <h3 class="demo-card-title">Automation Dashboard</h3>
+      <p class="demo-card-desc">Status: done</p>
+    </a>
+    <a class="demo-card" href="https://abwalczyk.github.io/ansible-f1/Metrics-and-telemetry/" target="_blank" rel="noopener">
+      <div class="demo-card-media demo-card-media-placeholder booth-placeholder-alt" aria-hidden="true"></div>
+      <h3 class="demo-card-title">Using metrics-utility</h3>
+      <p class="demo-card-desc">Status: net new</p>
+    </a>
   </div>
 </section>
 

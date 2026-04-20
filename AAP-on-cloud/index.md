@@ -6,6 +6,7 @@ theme: aap-on-cloud
 
 <section class="theme-page theme-cloud">
   <h2 class="cloud-page-title">Cloud automation</h2>
+  <p class="theme-cloud-lead">Same theme in the arcade game: <a href="{{ site.ansible_f1_game_base }}/AAP-on-cloud/" target="_blank" rel="noopener">Built to Automate — Cloud automation track</a>.</p>
   <div class="demo-card-grid">
     <a class="demo-card" href="https://interact.redhat.com/share/QIkx7TMuu22RDi0nUjRA" target="_blank" rel="noopener">
       <div class="demo-card-media">
