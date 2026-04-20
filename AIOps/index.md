@@ -1,6 +1,6 @@
 ---
 layout: default
-title: AIOps — Summit Booth Themes
+title: AIOps — Red Hat Ansible
 theme: aiops
 ---
 

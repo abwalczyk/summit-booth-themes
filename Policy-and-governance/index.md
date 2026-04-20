@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Governance & compliance — Summit Booth Themes"
+title: "Governance & compliance — Red Hat Ansible"
 theme: policy-governance
 ---
 

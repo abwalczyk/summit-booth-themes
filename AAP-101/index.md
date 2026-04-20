@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Red Hat Ansible 101 — Summit Booth Themes
+title: Red Hat Ansible 101
 theme: aap-101
 ---
 

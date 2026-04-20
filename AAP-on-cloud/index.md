@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Cloud automation — Summit Booth Themes
+title: Cloud automation — Red Hat Ansible
 theme: aap-on-cloud
 ---
 

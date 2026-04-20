@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Network & infrastructure — Summit Booth Themes"
+title: "Network & infrastructure — Red Hat Ansible"
 theme: infrastructure-network
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Automation ROI — Summit Booth Themes"
+title: "Automation ROI — Red Hat Ansible"
 theme: metrics-telemetry
 ---
 

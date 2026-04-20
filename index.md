@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Summit Booth Themes
+title: Red Hat Ansible
 theme: home
 ---
 

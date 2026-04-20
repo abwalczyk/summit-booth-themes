@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workflow orchestration — Summit Booth Themes
+title: Workflow orchestration — Red Hat Ansible
 theme: workflows
 ---
 

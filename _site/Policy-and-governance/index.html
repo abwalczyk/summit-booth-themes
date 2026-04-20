@@ -4,11 +4,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Governance & compliance — Summit Booth Themes</title>
+    <title>Governance & compliance — Red Hat Ansible</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400..900;1,400..900&family=Red+Hat+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <style>
+      :root {
+        --font-display: "Red Hat Display", system-ui, sans-serif;
+        --font-text: "Red Hat Text", system-ui, sans-serif;
+      }
       body {
         margin: 0;
-        font-family: Arial, sans-serif;
+        font-family: var(--font-text);
         color: #151515;
         background: #f5f5f5;
       }
@@ -19,32 +26,44 @@
       }
       .site-header {
         background: #fff;
-        border-bottom: 1px solid #d2d2d2;
+        border-bottom: none;
         margin-bottom: 16px;
       }
       .header-inner {
-        padding: 12px 16px 14px;
+        padding: 14px 16px 16px;
       }
-      .site-header h1 {
-        margin: 0;
-        font-size: 1.5rem;
-        font-weight: 600;
-        letter-spacing: -0.02em;
-      }
-      .site-title-link {
+      .site-brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
         color: inherit;
         text-decoration: none;
       }
-      .site-title-link:hover {
+      .site-brand:hover .site-brand-name {
         color: #ee0000;
       }
-      .site-title-link:focus-visible {
+      .site-brand:focus-visible {
         outline: 2px solid #06c;
-        outline-offset: 2px;
+        outline-offset: 4px;
+        border-radius: 4px;
+      }
+      .site-brand-logo {
+        height: 34px;
+        width: auto;
+        display: block;
+        flex-shrink: 0;
+      }
+      .site-brand-name {
+        margin: 0;
+        font-family: var(--font-display);
+        font-size: 1.45rem;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        color: #151515;
       }
       .site-nav {
-        border-top: 1px solid #e0e0e0;
-        background: #fafafa;
+        border-top: none;
+        background: #000;
       }
       .site-nav-inner {
         padding: 0 8px;
@@ -65,9 +84,10 @@
         display: block;
         border: none;
         background: transparent;
-        font: inherit;
+        font-family: var(--font-text);
         font-size: 0.875rem;
-        color: #151515;
+        font-weight: 500;
+        color: #fff;
         padding: 12px 14px;
         cursor: pointer;
         text-decoration: none;
@@ -76,19 +96,20 @@
         white-space: nowrap;
       }
       .site-nav-link:hover {
-        color: #ee0000;
-        background: rgba(238, 0, 0, 0.06);
+        color: #fff;
+        background: rgba(255, 255, 255, 0.12);
       }
       .site-nav-link:focus-visible {
-        outline: 2px solid #06c;
+        outline: 2px solid #fff;
         outline-offset: -2px;
       }
       .site-nav-link.active {
-        color: #ee0000;
-        font-weight: 600;
+        color: #fff;
+        font-weight: 700;
         border-bottom-color: #ee0000;
       }
       .notice {
+        font-family: var(--font-text);
         background: #fff;
         border: 1px solid #d2d2d2;
         border-left: 4px solid #ee0000;
@@ -108,18 +129,26 @@
       }
       .theme-page h2 {
         margin-top: 0;
+        font-family: var(--font-display);
+        font-weight: 700;
       }
       .hub-intro {
         margin: 0 0 8px;
+        font-family: var(--font-text);
         font-weight: 600;
       }
       .hub-theme-list {
         margin: 0;
         padding-left: 22px;
         line-height: 1.6;
+        font-family: var(--font-text);
       }
       h3 {
         margin-bottom: 8px;
+        font-family: var(--font-text);
+      }
+      .card h3 {
+        font-family: var(--font-text);
       }
       ul {
         margin-top: 6px;
@@ -142,11 +171,9 @@
       a {
         color: #06c;
       }
-      .site-nav .site-nav-link {
-        color: #151515;
-      }
       /* Theme pages using media-style demo cards (Cloud automation, AIOps, …) */
       .theme-page.theme-cloud .cloud-page-title {
+        font-family: var(--font-display);
         text-align: center;
         font-size: 1.75rem;
         font-weight: 700;
@@ -154,6 +181,7 @@
         letter-spacing: -0.02em;
       }
       .theme-cloud-lead {
+        font-family: var(--font-text);
         text-align: center;
         max-width: 42rem;
         margin: -8px auto 22px;
@@ -220,6 +248,7 @@
       .demo-card-title {
         margin: 0;
         padding: 14px 16px 8px;
+        font-family: var(--font-text);
         font-size: 1rem;
         font-weight: 700;
         line-height: 1.3;
@@ -227,6 +256,7 @@
       .demo-card-desc {
         margin: 0;
         padding: 0 16px 16px;
+        font-family: var(--font-text);
         font-size: 0.875rem;
         line-height: 1.5;
         color: #4f5255;
@@ -241,6 +271,7 @@
         margin-top: 0;
       }
       .race-cta {
+        font-family: var(--font-text);
         margin-top: 20px;
         padding: 14px 16px;
         border: 1px solid #d2d2d2;
@@ -277,7 +308,10 @@
   <body>
     <header class="site-header">
       <div class="wrapper header-inner">
-        <h1><a class="site-title-link" href="/summit-booth-themes/">Summit Booth Themes</a></h1>
+        <a class="site-brand" href="/summit-booth-themes/">
+          <img class="site-brand-logo" src="/summit-booth-themes/assets/images/redhat-logo.svg" height="34" alt="" aria-hidden="true" />
+          <span class="site-brand-name">Red Hat Ansible</span>
+        </a>
       </div>
       <nav class="site-nav" aria-label="Booth themes">
         <div class="wrapper site-nav-inner">

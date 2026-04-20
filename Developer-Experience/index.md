@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Developer experience — Summit Booth Themes
+title: Developer experience — Red Hat Ansible
 theme: developer-experience
 ---
 
@@ -8,7 +8,7 @@ theme: developer-experience
   <h2>Theme C - Developer experience</h2>
   <div class="split">
     <div class="card">
-      <h3>Anshul Demo: Claude / RHEL AI on Vertex in VS Code Extension</h3>
+      <h3>Claude / RHEL AI on Vertex in VS Code Extension</h3>
       <p class="small">Status: not started</p>
     </div>
     <div class="card">
