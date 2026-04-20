@@ -1,13 +1,13 @@
 /**
- * Global Red Hat fonts — loaded after inline layout styles.
+ * Global Red Hat Display — loaded after inline layout styles.
  * Uses CSS variables from _layouts/default.html :root when present.
  */
 html {
-  font-family: var(--font-text, "Red Hat Text", system-ui, sans-serif);
+  font-family: var(--font-display, "Red Hat Display", system-ui, sans-serif);
 }
 
 body {
-  font-family: var(--font-text, "Red Hat Text", system-ui, sans-serif) !important;
+  font-family: var(--font-display, "Red Hat Display", system-ui, sans-serif) !important;
 }
 
 main,
@@ -25,7 +25,7 @@ main *,
 .demo-card-grid *,
 .race-cta,
 .race-cta * {
-  font-family: var(--font-text, "Red Hat Text", system-ui, sans-serif);
+  font-family: var(--font-display, "Red Hat Display", system-ui, sans-serif);
 }
 
 /* Form controls don’t always inherit body fonts */
@@ -33,10 +33,10 @@ button,
 input,
 select,
 textarea {
-  font-family: var(--font-text, "Red Hat Text", system-ui, sans-serif) !important;
+  font-family: var(--font-display, "Red Hat Display", system-ui, sans-serif) !important;
 }
 
-/* Section / page titles — after universal rules so Display wins */
+/* Section / page titles — same stack as body */
 .site-brand-name,
 .theme-page > h2,
 .theme-page h2:first-of-type,
@@ -46,5 +46,12 @@ textarea {
 
 /* Nav band */
 .site-nav .site-nav-link {
-  font-family: var(--font-text, "Red Hat Text", system-ui, sans-serif) !important;
+  font-family: var(--font-display, "Red Hat Display", system-ui, sans-serif) !important;
+}
+
+code,
+pre,
+kbd,
+samp {
+  font-family: var(--font-display, "Red Hat Display", system-ui, sans-serif) !important;
 }

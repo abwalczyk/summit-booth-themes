@@ -7,11 +7,11 @@
     <title>{{ page.title | default: site.title }}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400..900;1,400..900&family=Red+Hat+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <style>
       :root {
         --font-display: "Red Hat Display", system-ui, sans-serif;
-        --font-text: "Red Hat Text", system-ui, sans-serif;
+        --font-text: var(--font-display);
       }
       body {
         margin: 0;
