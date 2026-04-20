@@ -215,6 +215,17 @@
           grid-template-columns: 1fr;
         }
       }
+      /* Single featured demo (e.g. Automation ROI dashboard tile) */
+      .demo-card-hero-wrap {
+        max-width: 720px;
+        margin: 0 auto 24px;
+      }
+      .demo-card-hero-wrap a.demo-card {
+        height: 100%;
+      }
+      .demo-card-grid + .split.roi-more-cards {
+        margin-top: 8px;
+      }
       a.demo-card {
         display: flex;
         flex-direction: column;
@@ -304,6 +315,7 @@
         outline-offset: 2px;
       }
     </style>
+    <link rel="stylesheet" href="/summit-booth-themes/assets/css/rh-typography.css">
   </head>
   <body>
     <header class="site-header">
@@ -329,15 +341,22 @@
       </nav>
     </header>
     <main class="wrapper">
-      <section class="theme-page">
-  <h2>Theme G - Automation ROI</h2>
-  <div class="split">
+      <section class="theme-page theme-cloud">
+  <h2 class="cloud-page-title">Automation ROI</h2>
+
+  <div class="demo-card-hero-wrap">
+    <a class="demo-card" href="https://interact.redhat.com/share/rRlctHhxxxojPuls1oui" target="_blank" rel="noopener">
+      <div class="demo-card-media">
+        <img src="/summit-booth-themes/assets/images/dashboard_installation.jpg" width="800" height="450" alt="Ansible Automation Dashboard Installation" loading="lazy" />
+      </div>
+      <h3 class="demo-card-title">Ansible Automation Dashboard Installation</h3>
+      <p class="demo-card-desc">How to get started with Ansible Automation Dashboard Installation. What you need to do from prerequisite steps, to Install and begin using the Dashboard to monitor and track automation!</p>
+    </a>
+  </div>
+
+  <div class="split roi-more-cards">
     <div class="card">
       <h3>Automation Dashboard</h3>
-      <p class="small">Status: done</p>
-    </div>
-    <div class="card">
-      <h3>Automation Dashboard Installation</h3>
       <p class="small">Status: done</p>
     </div>
     <div class="card">

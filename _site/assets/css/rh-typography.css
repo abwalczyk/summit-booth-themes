@@ -1,0 +1,50 @@
+/**
+ * Global Red Hat fonts — loaded after inline layout styles.
+ * Uses CSS variables from _layouts/default.html :root when present.
+ */
+html {
+  font-family: var(--font-text, "Red Hat Text", system-ui, sans-serif);
+}
+
+body {
+  font-family: var(--font-text, "Red Hat Text", system-ui, sans-serif) !important;
+}
+
+main,
+main *,
+.theme-page,
+.theme-page *,
+.notice,
+.notice *,
+.hub-intro,
+.hub-theme-list,
+.split,
+.card,
+.card *,
+.demo-card-grid,
+.demo-card-grid *,
+.race-cta,
+.race-cta * {
+  font-family: var(--font-text, "Red Hat Text", system-ui, sans-serif);
+}
+
+/* Form controls don’t always inherit body fonts */
+button,
+input,
+select,
+textarea {
+  font-family: var(--font-text, "Red Hat Text", system-ui, sans-serif) !important;
+}
+
+/* Section / page titles — after universal rules so Display wins */
+.site-brand-name,
+.theme-page > h2,
+.theme-page h2:first-of-type,
+.theme-page.theme-cloud .cloud-page-title {
+  font-family: var(--font-display, "Red Hat Display", system-ui, sans-serif) !important;
+}
+
+/* Nav band */
+.site-nav .site-nav-link {
+  font-family: var(--font-text, "Red Hat Text", system-ui, sans-serif) !important;
+}

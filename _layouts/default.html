@@ -215,6 +215,17 @@
           grid-template-columns: 1fr;
         }
       }
+      /* Single featured demo (e.g. Automation ROI dashboard tile) */
+      .demo-card-hero-wrap {
+        max-width: 720px;
+        margin: 0 auto 24px;
+      }
+      .demo-card-hero-wrap a.demo-card {
+        height: 100%;
+      }
+      .demo-card-grid + .split.roi-more-cards {
+        margin-top: 8px;
+      }
       a.demo-card {
         display: flex;
         flex-direction: column;
@@ -304,6 +315,7 @@
         outline-offset: 2px;
       }
     </style>
+    <link rel="stylesheet" href="{{ '/assets/css/rh-typography.css' | relative_url }}">
   </head>
   <body>
     <header class="site-header">
