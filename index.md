@@ -15,7 +15,7 @@ theme: home
 
 <p class="hub-intro">Jump to a booth theme:</p>
 <ul class="hub-theme-list">
-  <li><a href="{{ '/AIOps/' | relative_url }}">A · AIOps with Red Hat Ansible</a></li>
+  <li><a href="{{ '/AIOps/' | relative_url }}">A · AIOps</a></li>
   <li><a href="{{ '/Workflows/' | relative_url }}">B · Workflow orchestration</a></li>
   <li><a href="{{ '/Developer-Experience/' | relative_url }}">C · Developer experience</a></li>
   <li><a href="{{ '/Policy-and-governance/' | relative_url }}">D · Governance &amp; compliance</a></li>

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: AIOps with Red Hat Ansible — Summit Booth Themes
+title: AIOps — Summit Booth Themes
 theme: aiops
 ---
 
 <section class="theme-page theme-cloud">
-  <h2 class="cloud-page-title">AIOps with Red Hat Ansible</h2>
+  <h2 class="cloud-page-title">AIOps</h2>
   <p class="theme-cloud-lead">Same Arcade demos as the billboards on the <a href="{{ site.ansible_f1_game_base }}/AIOps/" target="_blank" rel="noopener">Built to Automate — AIOps track</a>.</p>
   <div class="demo-card-grid">
     <a class="demo-card" href="https://demo.arcade.software/iv4MGA8BVPeEtdjNYmBM" target="_blank" rel="noopener">
