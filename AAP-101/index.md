@@ -6,7 +6,6 @@ theme: aap-101
 
 <section class="theme-page theme-cloud">
   <h2 class="cloud-page-title">Red Hat Ansible 101</h2>
-  <p class="theme-cloud-lead">Same theme in the arcade game: <a href="{{ site.ansible_f1_game_base }}/AAP-101/" target="_blank" rel="noopener">Built to Automate — Red Hat Ansible 101 track</a>.</p>
   <div class="demo-card-grid">
     <a class="demo-card" href="{{ site.ansible_f1_game_base }}/AAP-101/" target="_blank" rel="noopener">
       <div class="demo-card-media demo-card-media-placeholder booth-placeholder" aria-hidden="true"></div>

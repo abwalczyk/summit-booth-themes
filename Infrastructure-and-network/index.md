@@ -6,7 +6,6 @@ theme: infrastructure-network
 
 <section class="theme-page theme-cloud">
   <h2 class="cloud-page-title">Network &amp; infrastructure</h2>
-  <p class="theme-cloud-lead">Same theme in the arcade game: <a href="{{ site.ansible_f1_game_base }}/Infrastructure-and-network/" target="_blank" rel="noopener">Built to Automate — Network &amp; infrastructure track</a>.</p>
   <div class="demo-card-grid">
     <a class="demo-card" href="{{ site.ansible_f1_game_base }}/Infrastructure-and-network/" target="_blank" rel="noopener">
       <div class="demo-card-media demo-card-media-placeholder booth-placeholder" aria-hidden="true"></div>
