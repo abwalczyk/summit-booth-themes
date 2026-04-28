@@ -16,10 +16,10 @@ theme: aap-on-cloud
     </a>
     <a class="demo-card" href="https://interact.redhat.com/share/qYeocEdiSCHFkKXytJMe" target="_blank" rel="noopener">
       <div class="demo-card-media">
-        <img src="{{ '/assets/images/cloud/ansible-aws.png' | relative_url }}" onerror="this.onerror=null;this.src='{{ '/assets/images/cloud/ansible-aws.svg' | relative_url }}'" width="400" height="225" alt="" loading="lazy" />
+        <img src="{{ '/assets/images/aiops_self_healing_aws_infrastructure_aap.png' | relative_url }}" width="800" height="450" alt="AIOps: Self-Healing AWS Infrastructure with AAP" loading="lazy" />
       </div>
-      <h3 class="demo-card-title">AIOps on AWS</h3>
-      <p class="demo-card-desc">AIOps patterns on AWS with Ansible Automation Platform.</p>
+      <h3 class="demo-card-title">AIOps: Self-Healing AWS Infrastructure with AAP</h3>
+      <p class="demo-card-desc">AIOps and self-healing patterns on AWS with Ansible Automation Platform.</p>
     </a>
     <a class="demo-card" href="https://interact.redhat.com/share/kfgU5BTwSlvBf9pCy0vP" target="_blank" rel="noopener">
       <div class="demo-card-media">
@@ -41,13 +41,6 @@ theme: aap-on-cloud
       </div>
       <h3 class="demo-card-title">Automate multi-cloud insights with AAP</h3>
       <p class="demo-card-desc">Launch AWS, Azure, and Google Cloud report jobs, generate documentation, and review VM insights from one interface.</p>
-    </a>
-    <a class="demo-card" href="https://app.arcade.software/share/g25qlmX59RI0r6OjRjL2?ref=share-link" target="_blank" rel="noopener">
-      <div class="demo-card-media">
-        <img src="{{ '/assets/images/aiops_self_healing_aws_infrastructure_aap.png' | relative_url }}" width="800" height="450" alt="AIOps: Self-Healing AWS Infrastructure with AAP" loading="lazy" />
-      </div>
-      <h3 class="demo-card-title">AIOps: Self-Healing AWS Infrastructure with AAP</h3>
-      <p class="demo-card-desc">Deploy the AAP service on AWS and run your first automation use case quickly.</p>
     </a>
     <a class="demo-card" href="https://app.arcade.software/share/i0kqdFs2Q27gxgPLqOF8?ref=share-link" target="_blank" rel="noopener">
       <div class="demo-card-media demo-card-media-placeholder booth-placeholder" aria-hidden="true"></div>
