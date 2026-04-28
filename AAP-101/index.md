@@ -22,7 +22,9 @@ theme: aap-101
       <p class="demo-card-desc">Use the automation intelligent assistant (formerly Ansible Lightspeed) as an in-product chat: ask questions, explore examples, and jump to docs from the UI.</p>
     </a>
     <a class="demo-card" href="https://interact.redhat.com/share/tE9tlgwEwnXUUqqUWxW5" target="_blank" rel="noopener">
-      <div class="demo-card-media demo-card-media-placeholder booth-placeholder-alt2" aria-hidden="true"></div>
+      <div class="demo-card-media">
+        <img src="{{ '/assets/images/provision_ansible_dev_sandbox.png' | relative_url }}" width="800" height="450" alt="Provision Ansible in Developer Sandbox — Red Hat Ansible Automation Platform" loading="lazy" />
+      </div>
       <h3 class="demo-card-title">Provision Ansible in Developer Sandbox</h3>
       <p class="demo-card-desc">Provision a personal Ansible Automation Platform instance in the Red Hat Developer Sandbox, activate with your Red Hat account, and explore use cases in minutes.</p>
     </a>
