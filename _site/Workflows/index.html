@@ -194,6 +194,23 @@
         margin: 0 0 20px;
         letter-spacing: -0.02em;
       }
+      /* Group demo grids (e.g. YouTube vs Arcade on Developer experience) */
+      .demo-section {
+        margin-bottom: 2rem;
+      }
+      .demo-section:last-child {
+        margin-bottom: 0;
+      }
+      .demo-section-title {
+        font-family: var(--font-display);
+        font-size: 1.05rem;
+        font-weight: 700;
+        margin: 0 0 14px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #d2d2d2;
+        color: #151515;
+        letter-spacing: -0.02em;
+      }
       .theme-cloud-lead {
         font-family: var(--font-text);
         text-align: center;
@@ -238,23 +255,6 @@
         .demo-card-grid {
           grid-template-columns: 1fr;
         }
-      }
-      .demo-section {
-        margin-top: 2rem;
-      }
-      .demo-section:first-of-type {
-        margin-top: 0;
-      }
-      .demo-section-title {
-        font-family: var(--font-display);
-        font-size: 1.05rem;
-        font-weight: 700;
-        letter-spacing: -0.02em;
-        color: #151515;
-        margin: 0 0 16px;
-        padding-bottom: 10px;
-        border-bottom: 2px solid #e8e8e8;
-        text-align: left;
       }
       a.demo-card {
         display: flex;
@@ -375,9 +375,7 @@
   <h2 class="cloud-page-title">Workflow orchestration</h2>
   <div class="demo-card-grid">
     <a class="demo-card" href="https://abwalczyk.github.io/ansible-f1/Workflows/" target="_blank" rel="noopener">
-      <div class="demo-card-media">
-        <img src="/summit-booth-themes/assets/images/arcade-title-slides/slide-052.png" width="800" height="450" alt="" loading="lazy" />
-      </div>
+      <div class="demo-card-media demo-card-media-placeholder booth-placeholder" aria-hidden="true"></div>
       <h3 class="demo-card-title">Workflow orchestration demos</h3>
       <p class="demo-card-desc">Booth interact labs for this pillar are still being finalized. Play the Built to Automate track for this theme; full arcade links will be published here when ready.</p>
     </a>
