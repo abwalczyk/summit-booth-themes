@@ -21,6 +21,13 @@ theme: aap-on-cloud
       <h3 class="demo-card-title">AIOps: Self-Healing AWS Infrastructure with AAP</h3>
       <p class="demo-card-desc">AIOps and self-healing patterns on AWS with Ansible Automation Platform.</p>
     </a>
+    <a class="demo-card" href="https://interact.redhat.com/share/g25qlmX59RI0r6OjRjL2" target="_blank" rel="noopener">
+      <div class="demo-card-media">
+        <img src="{{ '/assets/images/ansible_automation_on_aws.png' | relative_url }}" width="800" height="450" alt="Ansible Automation on AWS — Red Hat Ansible Automation Platform" loading="lazy" />
+      </div>
+      <h3 class="demo-card-title">Ansible Automation on AWS</h3>
+      <p class="demo-card-desc">Deploy the AAP service on AWS and run your first automation use case quickly.</p>
+    </a>
     <a class="demo-card" href="https://interact.redhat.com/share/kfgU5BTwSlvBf9pCy0vP" target="_blank" rel="noopener">
       <div class="demo-card-media">
         <img src="{{ '/assets/images/aiops_self_healing_azure_infrastructure_aap.png' | relative_url }}" width="800" height="450" alt="AIOps: Self-Healing Azure Infrastructure with AAP" loading="lazy" />
@@ -64,8 +71,10 @@ theme: aap-on-cloud
       <p class="demo-card-desc">Deploy automation mesh and an execution node on Managed AAP on AWS.</p>
     </a>
     <a class="demo-card" href="https://app.arcade.software/share/2EgdjBNqGngIf3V8X57T?ref=share-link" target="_blank" rel="noopener">
-      <div class="demo-card-media demo-card-media-placeholder booth-placeholder" aria-hidden="true"></div>
-      <h3 class="demo-card-title">Getting started with AAP on Microsoft Azure (managed application)</h3>
+      <div class="demo-card-media">
+        <img src="{{ '/assets/images/aap_getting_set_up_azure_managed_application.png' | relative_url }}" width="800" height="450" alt="Getting set up with AAP on Azure: Managed Application — Red Hat Ansible Automation Platform" loading="lazy" />
+      </div>
+      <h3 class="demo-card-title">Getting set up with AAP on Azure: Managed Application</h3>
       <p class="demo-card-desc">Prerequisites through post-deployment for Ansible Automation Platform on Azure.</p>
     </a>
   </div>
