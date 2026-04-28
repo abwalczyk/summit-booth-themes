@@ -7,25 +7,25 @@ theme: infrastructure-network
 <section class="theme-page theme-cloud">
   <h2 class="cloud-page-title">Network &amp; infrastructure</h2>
   <div class="demo-card-grid">
-    <a class="demo-card" href="{{ site.ansible_f1_game_base }}/Infrastructure-and-network/" target="_blank" rel="noopener">
+    <a class="demo-card" href="https://interact.redhat.com/share/lCIPelhAv2BaMTmlVUF5" target="_blank" rel="noopener">
       <div class="demo-card-media demo-card-media-placeholder booth-placeholder" aria-hidden="true"></div>
-      <h3 class="demo-card-title">Overview Arcade for Virtual Infrastructure Management</h3>
-      <p class="demo-card-desc">Status: done</p>
+      <h3 class="demo-card-title">Virtualization infrastructure automation with Red Hat Ansible</h3>
+      <p class="demo-card-desc">Migrate and manage virtual machines and related infrastructure at scale with Red Hat Ansible Automation Platform.</p>
     </a>
-    <a class="demo-card" href="{{ site.ansible_f1_game_base }}/Infrastructure-and-network/" target="_blank" rel="noopener">
+    <a class="demo-card" href="https://interact.redhat.com/share/adaFZyEQuQwYz7Ck4cOu" target="_blank" rel="noopener">
       <div class="demo-card-media demo-card-media-placeholder booth-placeholder-alt" aria-hidden="true"></div>
-      <h3 class="demo-card-title">Overview Arcade for RHEL</h3>
-      <p class="demo-card-desc">Status: done</p>
+      <h3 class="demo-card-title">Red Hat Enterprise Linux automated management</h3>
+      <p class="demo-card-desc">RHEL automated management with Red Hat Ansible Automation Platform.</p>
     </a>
-    <a class="demo-card" href="{{ site.ansible_f1_game_base }}/Infrastructure-and-network/" target="_blank" rel="noopener">
+    <a class="demo-card" href="https://interact.redhat.com/share/oBoXzgiggcwGdG5DzosF" target="_blank" rel="noopener">
       <div class="demo-card-media demo-card-media-placeholder booth-placeholder-alt2" aria-hidden="true"></div>
-      <h3 class="demo-card-title">Automating Day 2 Windows VM Operations</h3>
-      <p class="demo-card-desc">Status: done</p>
+      <h3 class="demo-card-title">Automating Day 2 Windows VM operations</h3>
+      <p class="demo-card-desc">Manage Windows VMs in OpenShift with AAP—Day 2 tasks like start/stop, resize, and snapshots via job templates.</p>
     </a>
-    <a class="demo-card" href="{{ site.ansible_f1_game_base }}/Infrastructure-and-network/" target="_blank" rel="noopener">
+    <a class="demo-card" href="https://interact.redhat.com/share/iaIlwC3A7UmSTjv2IhBM" target="_blank" rel="noopener">
       <div class="demo-card-media demo-card-media-placeholder booth-placeholder" aria-hidden="true"></div>
-      <h3 class="demo-card-title">Network Automation with AAP</h3>
-      <p class="demo-card-desc">Status: done</p>
+      <h3 class="demo-card-title">Network automation with AAP</h3>
+      <p class="demo-card-desc">Automate from datacenter to edge—multivendor network reports, interfaces, VLANs, and configs for visibility and efficiency.</p>
     </a>
   </div>
 </section>
