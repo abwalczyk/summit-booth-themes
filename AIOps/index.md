@@ -8,7 +8,9 @@ theme: aiops
   <h2 class="cloud-page-title">AIOps with Red Hat Ansible</h2>
   <div class="demo-card-grid">
     <a class="demo-card" href="https://interact.redhat.com/share/kCuEEAIeU2a8plQcDALz" target="_blank" rel="noopener">
-      <div class="demo-card-media demo-card-media-placeholder booth-placeholder" aria-hidden="true"></div>
+      <div class="demo-card-media">
+        <img src="{{ '/assets/images/automation_for_aiops.png' | relative_url }}" width="800" height="450" alt="Automation for AIOps — Red Hat Ansible Automation Platform" loading="lazy" />
+      </div>
       <h3 class="demo-card-title">Automation for AIOps</h3>
       <p class="demo-card-desc">See how Ansible Automation Platform powers AIOps by combining AI insights with automated remediation. This lab walks through detecting issues, integrating with ServiceNow and Lightspeed, and enabling self-healing infrastructure.</p>
     </a>
