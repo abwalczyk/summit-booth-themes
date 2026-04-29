@@ -19,9 +19,37 @@
         color: #151515;
         background: #f5f5f5;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: stretch;
         min-height: 100vh;
+      }
+      /* Full-width white band — Red Hat logo row spans entire viewport width */
+      .site-topbar {
+        flex-shrink: 0;
+        width: 100%;
+        background: #fff;
+        border-bottom: 1px solid #d2d2d2;
+        box-sizing: border-box;
+      }
+      .site-topbar-inner {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        padding: 16px 20px 14px;
+        box-sizing: border-box;
+      }
+      .site-topbar .site-brand {
+        flex-direction: row;
+        align-items: center;
+        gap: 14px;
+      }
+      .site-body {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        flex: 1;
+        min-height: 0;
+        width: 100%;
       }
       .wrapper {
         max-width: 1200px;
@@ -29,7 +57,6 @@
         padding: 16px;
       }
       .site-header {
-        background: #fff;
         border-bottom: none;
         margin-bottom: 0;
         border-right: 1px solid #d2d2d2;
@@ -37,7 +64,8 @@
         flex-shrink: 0;
         display: flex;
         flex-direction: column;
-        min-height: 100vh;
+        min-height: 0;
+        align-self: stretch;
         box-sizing: border-box;
       }
       .site-header .wrapper {
@@ -45,10 +73,6 @@
         margin: 0;
         width: 100%;
         box-sizing: border-box;
-      }
-      .header-inner {
-        padding: 16px 14px 12px;
-        flex-shrink: 0;
       }
       .site-brand {
         display: inline-flex;
@@ -157,7 +181,7 @@
         box-sizing: border-box;
       }
       @media (max-width: 768px) {
-        body {
+        .site-body {
           flex-direction: column;
         }
         .site-header {
@@ -165,10 +189,6 @@
           min-height: 0;
           border-right: none;
           border-bottom: 1px solid #d2d2d2;
-        }
-        .site-brand {
-          flex-direction: row;
-          align-items: center;
         }
         .site-nav {
           flex: 0 0 auto;
@@ -588,34 +608,37 @@
     <link rel="stylesheet" href="/summit-booth-themes/assets/css/rh-typography.css">
   </head>
   <body>
-    <header class="site-header">
-      <div class="wrapper header-inner">
+    <div class="site-topbar">
+      <div class="site-topbar-inner">
         <a class="site-brand" href="/summit-booth-themes/">
           <img class="site-brand-logo" src="/summit-booth-themes/assets/images/redhat-logo.svg" height="42" alt="" aria-hidden="true" />
           <span class="site-brand-name">Red Hat Ansible</span>
         </a>
       </div>
-      <nav class="site-nav" aria-label="Booth themes">
-        <div class="wrapper site-nav-inner">
-          <ul class="site-nav-list">
-            <li><a class="site-nav-link" href="/summit-booth-themes/AIOps/">AIOps with Red Hat Ansible</a></li>
-            <li><a class="site-nav-link" href="/summit-booth-themes/Workflows/">Workflow orchestration</a></li>
-            <li><a class="site-nav-link active" href="/summit-booth-themes/Developer-Experience/">Developer experience</a></li>
-            <li><a class="site-nav-link" href="/summit-booth-themes/Policy-and-governance/">Governance &amp; compliance</a></li>
-            <li><a class="site-nav-link" href="/summit-booth-themes/Infrastructure-and-network/">Network &amp; infrastructure</a></li>
-            <li><a class="site-nav-link" href="/summit-booth-themes/AAP-on-cloud/">Cloud automation</a></li>
-            <li><a class="site-nav-link" href="/summit-booth-themes/Metrics-and-telemetry/">Automation ROI</a></li>
-            <li><a class="site-nav-link" href="/summit-booth-themes/AAP-101/">Red Hat Ansible 101</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main class="wrapper">
+    </div>
+    <div class="site-body">
+      <header class="site-header">
+        <nav class="site-nav" aria-label="Booth themes">
+          <div class="wrapper site-nav-inner">
+            <ul class="site-nav-list">
+              <li><a class="site-nav-link" href="/summit-booth-themes/AIOps/">AIOps with Red Hat Ansible</a></li>
+              <li><a class="site-nav-link" href="/summit-booth-themes/Workflows/">Workflow orchestration</a></li>
+              <li><a class="site-nav-link active" href="/summit-booth-themes/Developer-Experience/">Developer experience</a></li>
+              <li><a class="site-nav-link" href="/summit-booth-themes/Policy-and-governance/">Governance &amp; compliance</a></li>
+              <li><a class="site-nav-link" href="/summit-booth-themes/Infrastructure-and-network/">Network &amp; infrastructure</a></li>
+              <li><a class="site-nav-link" href="/summit-booth-themes/AAP-on-cloud/">Cloud automation</a></li>
+              <li><a class="site-nav-link" href="/summit-booth-themes/Metrics-and-telemetry/">Automation ROI</a></li>
+              <li><a class="site-nav-link" href="/summit-booth-themes/AAP-101/">Red Hat Ansible 101</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main class="wrapper">
       <section class="theme-page theme-cloud">
   <h2 class="cloud-page-title">Developer experience</h2>
 
   <div class="demo-section">
-    <h3 class="demo-section-title">Arcade &amp; guided labs</h3>
+    <h3 class="demo-section-title">Interactive experiences</h3>
     <div class="demo-card-grid">
       <a class="demo-card" href="https://app.arcade.software/share/iKoPpilaNueRFTUzWnqL?ref=share-link" target="_blank" rel="noopener">
         <div class="demo-card-media">
@@ -644,7 +667,7 @@
         <h3 class="demo-card-title">Talk to your Ansible Automation Platform with AI — Copilot Studio + MCP</h3>
         <p class="demo-card-desc">Connect your LLM to AAP using an MCP server and Microsoft Copilot Studio: API tokens, custom connectors, OpenAPI, Bearer auth, and real automation queries.</p>
       </a>
-      <a class="demo-card" href="https://ansible-tmm.github.io/ansible-f1/Developer-Experience/" target="_blank" rel="noopener">
+      <a class="demo-card" href="https://www.youtube.com/watch?v=ZoNUCNIY1Dw" target="_blank" rel="noopener">
         <div class="demo-card-media">
           <img src="/summit-booth-themes/assets/images/ibm_bob_mcp_youtube_thumbnail.png" width="800" height="450" alt="How to set up IBM Bob with MCP server — Red Hat Ansible Automation Platform" loading="lazy" />
         </div>
@@ -666,6 +689,7 @@
 
       
     </main>
+    </div>
 
     <div id="booth-demo-overlay" class="booth-demo-overlay hidden" aria-hidden="true">
       <div class="booth-demo-backdrop" data-demo-close tabindex="-1"></div>
