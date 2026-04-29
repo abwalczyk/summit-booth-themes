@@ -1,6 +1,7 @@
 /**
  * Open Interact / Arcade / YouTube (and full ansible-f1 theme pages) in-page like the Built to Automate billboard overlay.
  * Note: interact.redhat.com forbids iframe embedding on third-party origins — those URLs use an in-modal launch panel instead.
+ * Arcade share links (app.arcade.software/share/…) are rewritten to demo.arcade.software embed URLs — same pattern as the Built to Automate game; app.arcade often fails inside iframes (“refused to connect”).
  */
 (function () {
   "use strict";
@@ -24,6 +25,22 @@
       }
 
       if (host.indexOf("arcade.software") !== -1) {
+        var shareMatch = u.pathname.match(/^\/share\/([^/]+)\/?$/);
+        if (shareMatch) {
+          return (
+            "https://demo.arcade.software/" +
+            shareMatch[1] +
+            "?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true"
+          );
+        }
+        var flowMatch = u.pathname.match(/^\/flows\/([^/]+)\/view\/?$/);
+        if (flowMatch) {
+          return (
+            "https://demo.arcade.software/" +
+            flowMatch[1] +
+            "?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true"
+          );
+        }
         if (!u.searchParams.has("embed")) u.searchParams.set("embed", "true");
         u.searchParams.set("embed_mobile", "tab");
         u.searchParams.set("embed_desktop", "inline");
