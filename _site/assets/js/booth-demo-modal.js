@@ -1,10 +1,21 @@
 /**
  * Open Interact / Arcade / YouTube (and full ansible-f1 theme pages) in-page like the Built to Automate billboard overlay.
  * Note: interact.redhat.com forbids iframe embedding on third-party origins — those URLs use an in-modal launch panel instead.
- * Arcade: keep the same host as the card link (e.g. app.arcade.software/share/…) and add embed query params — same approach as before the demo.arcade rewrite; share IDs must stay on app, not remapped to demo.
+ * Arcade: rewrite app.arcade.software share/flow links to the demo.arcade.software embed player — identical URL shape to
+ * Built to Automate billboards (ansible-f1 src/data/config.js). app.arcade is often blocked in iframes on summit kiosks.
  */
 (function () {
   "use strict";
+
+  /** Matches ansible-f1 billboard `embed` URLs (flag-style `embed` query param). */
+  var ARCADE_EMBED_SUFFIX =
+    "?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true";
+
+  /** @param {string} flowId */
+  function arcadeEmbedSrc(flowId) {
+    if (!flowId) return null;
+    return "https://demo.arcade.software/" + encodeURIComponent(flowId) + ARCADE_EMBED_SUFFIX;
+  }
 
   /** @param {string} raw */
   function toIframeSrc(raw) {
@@ -25,6 +36,22 @@
       }
 
       if (host.indexOf("arcade.software") !== -1) {
+        var shareMatch = u.pathname.match(/^\/share\/([^/]+)\/?$/);
+        if (shareMatch) {
+          var s = arcadeEmbedSrc(shareMatch[1]);
+          if (s) return s;
+        }
+        var flowMatch = u.pathname.match(/^\/flows\/([^/]+)\/view\/?$/);
+        if (flowMatch) {
+          var f = arcadeEmbedSrc(flowMatch[1]);
+          if (f) return f;
+        }
+        if (host === "demo.arcade.software") {
+          var seg = u.pathname.replace(/^\//, "").split("/").filter(Boolean);
+          if (seg.length === 1 && /^[A-Za-z0-9_-]+$/.test(seg[0])) {
+            return arcadeEmbedSrc(seg[0]);
+          }
+        }
         if (!u.searchParams.has("embed")) u.searchParams.set("embed", "true");
         u.searchParams.set("embed_mobile", "tab");
         u.searchParams.set("embed_desktop", "inline");
