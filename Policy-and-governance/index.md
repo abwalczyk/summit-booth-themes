@@ -14,7 +14,7 @@ theme: policy-governance
       <h3 class="demo-card-title">Red Hat Ansible Automation Platform for security automation</h3>
       <p class="demo-card-desc">How AAP supports security automation use cases with governance built in.</p>
     </a>
-    <a class="demo-card" href="https://interact.redhat.com/share/8wSFxhB1CT2w7Z7OWsyz" target="_blank" rel="noopener">
+    <a class="demo-card" href="https://app.arcade.software/share/8wSFxhB1CT2w7Z7OWsyz?ref=share-link" target="_blank" rel="noopener">
       <div class="demo-card-media">
         <img src="{{ '/assets/images/manage_ansible_secrets_with_hashicorp_vault.png' | relative_url }}" width="800" height="450" alt="Manage Ansible secrets with HashiCorp Vault — Red Hat Ansible Automation Platform" loading="lazy" />
       </div>

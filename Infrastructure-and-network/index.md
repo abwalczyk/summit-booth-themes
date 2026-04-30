@@ -10,12 +10,16 @@ theme: infrastructure-network
     <h3 class="demo-section-title">Interactive experiences</h3>
     <div class="demo-card-grid">
     <a class="demo-card" href="https://app.arcade.software/share/KlhYhTinO6JIaYtLV6uk?ref=share-link" target="_blank" rel="noopener">
-      <div class="demo-card-media demo-card-media-placeholder booth-placeholder" aria-hidden="true"></div>
+      <div class="demo-card-media">
+        <img src="{{ '/assets/images/virtualization_infrastructure_ansible_arcade.png' | relative_url }}" width="800" height="450" alt="Virtualization infrastructure automation with Red Hat Ansible — Red Hat Ansible Automation Platform" loading="lazy" />
+      </div>
       <h3 class="demo-card-title">Virtualization infrastructure automation with Red Hat Ansible</h3>
       <p class="demo-card-desc">Migrate and manage virtual machines and related infrastructure at scale with Red Hat Ansible Automation Platform.</p>
     </a>
     <a class="demo-card" href="https://app.arcade.software/share/b4bwKoXtWj5DSaSuBjIX?ref=share-link" target="_blank" rel="noopener">
-      <div class="demo-card-media demo-card-media-placeholder booth-placeholder-alt" aria-hidden="true"></div>
+      <div class="demo-card-media">
+        <img src="{{ '/assets/images/rhel_automated_management_arcade.png' | relative_url }}" width="800" height="450" alt="Red Hat Enterprise Linux automated management — Red Hat Ansible Automation Platform" loading="lazy" />
+      </div>
       <h3 class="demo-card-title">Red Hat Enterprise Linux automated management</h3>
       <p class="demo-card-desc">RHEL automated management with Red Hat Ansible Automation Platform.</p>
     </a>
