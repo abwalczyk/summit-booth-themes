@@ -16,28 +16,28 @@ theme: aap-on-cloud
       <h3 class="demo-card-title">AIOps — self-healing infrastructure with AAP</h3>
       <p class="demo-card-desc">Detect issues, analyze with AI, and auto-remediate with Event-Driven Ansible and Lightspeed-generated playbooks.</p>
     </a>
-    <a class="demo-card" href="https://interact.redhat.com/share/qYeocEdiSCHFkKXytJMe" target="_blank" rel="noopener">
+    <a class="demo-card" href="https://app.arcade.software/share/qYeocEdiSCHFkKXytJMe?ref=share-link" target="_blank" rel="noopener">
       <div class="demo-card-media">
         <img src="{{ '/assets/images/aiops_self_healing_aws_infrastructure_aap.png' | relative_url }}" width="800" height="450" alt="AIOps: Self-Healing AWS Infrastructure with AAP" loading="lazy" />
       </div>
       <h3 class="demo-card-title">AIOps: Self-Healing AWS Infrastructure with AAP</h3>
       <p class="demo-card-desc">AIOps and self-healing patterns on AWS with Ansible Automation Platform.</p>
     </a>
-    <a class="demo-card" href="https://interact.redhat.com/share/g25qlmX59RI0r6OjRjL2" target="_blank" rel="noopener">
+    <a class="demo-card" href="https://app.arcade.software/share/g25qlmX59RI0r6OjRjL2?ref=share-link" target="_blank" rel="noopener">
       <div class="demo-card-media">
         <img src="{{ '/assets/images/ansible_automation_on_aws.png' | relative_url }}" width="800" height="450" alt="Ansible Automation on AWS — Red Hat Ansible Automation Platform" loading="lazy" />
       </div>
       <h3 class="demo-card-title">Ansible Automation on AWS</h3>
       <p class="demo-card-desc">Deploy the AAP service on AWS and run your first automation use case quickly.</p>
     </a>
-    <a class="demo-card" href="https://interact.redhat.com/share/kfgU5BTwSlvBf9pCy0vP" target="_blank" rel="noopener">
+    <a class="demo-card" href="https://app.arcade.software/share/kfgU5BTwSlvBf9pCy0vP?ref=share-link" target="_blank" rel="noopener">
       <div class="demo-card-media">
         <img src="{{ '/assets/images/aiops_self_healing_azure_infrastructure_aap.png' | relative_url }}" width="800" height="450" alt="AIOps: Self-Healing Azure Infrastructure with AAP" loading="lazy" />
       </div>
       <h3 class="demo-card-title">AIOps: Self-Healing Azure Infrastructure with AAP</h3>
       <p class="demo-card-desc">AIOps and self-healing patterns on Azure with Ansible Automation Platform.</p>
     </a>
-    <a class="demo-card" href="https://interact.redhat.com/share/SkR37DWiMlhDWUgm4oUs" target="_blank" rel="noopener">
+    <a class="demo-card" href="https://app.arcade.software/share/SkR37DWiMlhDWUgm4oUs?ref=share-link" target="_blank" rel="noopener">
       <div class="demo-card-media">
         <img src="{{ '/assets/images/ansible_terraform_better_together.png' | relative_url }}" width="800" height="450" alt="Ansible and Terraform better together — Red Hat Ansible Automation Platform" loading="lazy" />
       </div>
