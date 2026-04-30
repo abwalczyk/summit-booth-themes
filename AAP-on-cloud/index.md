@@ -9,7 +9,7 @@ theme: aap-on-cloud
   <div class="demo-section">
     <h3 class="demo-section-title">Interactive experiences</h3>
     <div class="demo-card-grid">
-    <a class="demo-card" href="https://interact.redhat.com/share/QIkx7TMuu22RDi0nUjRA" target="_blank" rel="noopener">
+    <a class="demo-card" href="https://app.arcade.software/share/QIkx7TMuu22RDi0nUjRA?ref=share-link" target="_blank" rel="noopener">
       <div class="demo-card-media">
         <img src="{{ '/assets/images/aiops_self_healing_infrastructure_aap.png' | relative_url }}" width="800" height="450" alt="AIOps: Self-healing infrastructure with AAP — Red Hat Ansible Automation Platform" loading="lazy" />
       </div>
