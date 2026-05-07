@@ -15,12 +15,12 @@ theme: home
 
 <p class="hub-intro">Jump to a booth theme:</p>
 <ul class="hub-theme-list">
-  <li><a href="{{ '/AIOps/' | relative_url }}">A · AIOps with Red Hat Ansible</a></li>
-  <li><a href="{{ '/Workflows/' | relative_url }}">B · Workflow orchestration</a></li>
-  <li><a href="{{ '/Developer-Experience/' | relative_url }}">C · Developer experience</a></li>
-  <li><a href="{{ '/Policy-and-governance/' | relative_url }}">D · Governance &amp; compliance</a></li>
-  <li><a href="{{ '/Infrastructure-and-network/' | relative_url }}">E · Network &amp; infrastructure</a></li>
-  <li><a href="{{ '/AAP-on-cloud/' | relative_url }}">F · Cloud automation</a></li>
-  <li><a href="{{ '/Metrics-and-telemetry/' | relative_url }}">G · Automation ROI</a></li>
-  <li><a href="{{ '/AAP-101/' | relative_url }}">H · Red Hat Ansible 101</a></li>
+  <li><a href="{{ '/AIOps/' | relative_url }}">AIOps with Red Hat Ansible</a></li>
+  <li><a href="{{ '/Workflows/' | relative_url }}">Workflow orchestration</a></li>
+  <li><a href="{{ '/Developer-Experience/' | relative_url }}">Developer experience</a></li>
+  <li><a href="{{ '/Policy-and-governance/' | relative_url }}">Governance &amp; compliance</a></li>
+  <li><a href="{{ '/Infrastructure-and-network/' | relative_url }}">Network &amp; infrastructure</a></li>
+  <li><a href="{{ '/AAP-on-cloud/' | relative_url }}">Cloud automation</a></li>
+  <li><a href="{{ '/Metrics-and-telemetry/' | relative_url }}">Automation ROI</a></li>
+  <li><a href="{{ '/AAP-101/' | relative_url }}">Red Hat Ansible 101</a></li>
 </ul>
