@@ -52,7 +52,7 @@ theme: home
         <span class="landing-theme-card-accent" aria-hidden="true"></span>
         <div class="landing-theme-card-body">
           <h3 class="landing-theme-card-title">Network &amp; infrastructure</h3>
-          <p class="landing-theme-card-desc">Day-2 lifecycle automation for networks and platforms.</p>
+          <p class="landing-theme-card-desc">Lifecycle automation for networks and platforms.</p>
         </div>
       </a>
       <a class="landing-theme-card landing-theme-card--cloud" href="{{ '/AAP-on-cloud/' | relative_url }}">
