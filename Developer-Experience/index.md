@@ -17,6 +17,13 @@ theme: developer-experience
         <h3 class="demo-card-title">Installing Ansible Dev Container in VS Code</h3>
         <p class="demo-card-desc">Set up a portable Ansible development environment in VS Code with the Ansible Dev Container (Podman or Docker) for playbook and role development across platforms.</p>
       </a>
+      <a class="demo-card" href="https://app.arcade.software/share/RZM69zpDpc5ymd63pMQv?ref=share-link" target="_blank" rel="noopener">
+        <div class="demo-card-media">
+          <img src="{{ '/assets/images/automation_portal_execution_environment_builder_arcade.png' | relative_url }}" width="800" height="450" alt="Automation Portal — Execution environment builder — Red Hat Ansible Automation Platform" loading="lazy" />
+        </div>
+        <h3 class="demo-card-title">Automation Portal — Execution environment builder</h3>
+        <p class="demo-card-desc">Explore the execution environment builder in the Automation Portal. See how you can define, build, and publish ready-to-use execution environments from a simple point-and-click interface.</p>
+      </a>
     </div>
   </div>
 
